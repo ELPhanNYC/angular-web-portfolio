@@ -1,0 +1,22 @@
+img {
+    float: left;
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    border: 5px inset rgb(10, 127, 182);
+}
+.container {
+    width: 720px;
+    margin: 0 auto;
+}
+.intro {
+    float: left;
+    width: 300px;
+    padding-left: 3rem;
+    padding-top: 5rem;
+}
+.image {
+    float: left;
+    width: 355;
+}

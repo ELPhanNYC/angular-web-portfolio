@@ -1,0 +1,40 @@
+nav {
+    padding-left: 5rem;
+    padding-top: 1.75rem;
+    a {
+        font-size: 1.25rem;
+        padding-right: 1rem;
+        text-decoration: none;
+    }
+    a:link {
+        color: white;
+    }
+    a:visited {
+        color: white;
+    }
+    a:hover {
+        color: rgb(152, 178, 235);
+        text-decoration: underline;
+    }
+    a:active {
+        color: rgb(152, 178, 235);
+    }
+}
+div {
+    float: left;
+}
+.navbar {
+    left: 0rem;
+    top: 0rem;
+    height: 5rem;
+    width: 100%;
+    background-color: rgba(28, 54, 80, 0.986);
+    position: fixed;
+}
+img {
+    height: 3rem;
+    padding: 1rem 1rem 0rem 2rem;
+    // padding-top: 1rem;
+    // padding-left: 2 rem;
+    // padding-right: 1rem;
+}
