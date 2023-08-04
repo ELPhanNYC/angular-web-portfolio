@@ -7,6 +7,10 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AboutCardComponent } from './about-card/about-card.component';
+
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -14,11 +18,14 @@ import { ExperienceComponent } from './experience/experience.component';
     NavbarComponent,
     FooterComponent,
     HomeComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    AboutCardComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
