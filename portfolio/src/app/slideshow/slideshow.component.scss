@@ -1,0 +1,29 @@
+img {
+    float: left;
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    border: 5px inset rgb(10, 127, 182);
+}
+.image {
+    float: left;
+    width: 355;
+}
+.slideshow-image {
+    animation: fade 3s infinite;
+} 
+@keyframes fade {
+    0% {
+        opacity: .05;
+    }
+    25% {
+        opacity: 1;
+    }
+    75%{
+        opacity: 1;
+    }
+    100% {
+        opacity: .05;
+    }
+}

@@ -11,6 +11,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AboutCardComponent } from './about-card/about-card.component';
 
 import { MatCardModule } from '@angular/material/card';
+import { SlideshowComponent } from './slideshow/slideshow.component';
+import { ItemBoxComponent } from './item-box/item-box.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { MatCardModule } from '@angular/material/card';
     FooterComponent,
     HomeComponent,
     ExperienceComponent,
-    AboutCardComponent
+    AboutCardComponent,
+    SlideshowComponent,
+    ItemBoxComponent
   ],
   imports: [
     BrowserModule,
