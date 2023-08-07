@@ -4,11 +4,7 @@ img {
     height: 350px;
     width: 350px;
     object-fit: cover;
-    border: 5px inset rgb(10, 127, 182);
-}
-.image {
-    float: left;
-    width: 355;
+    border: 5px outset rgb(10, 127, 182);
 }
 .slideshow-image {
     animation: fade 3s infinite;

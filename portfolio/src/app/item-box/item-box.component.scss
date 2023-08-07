@@ -2,10 +2,30 @@
     border: 2px solid rgba(17, 28, 112, 0.731);
     background-color: rgba(10, 128, 182, 0.201);
     border-radius: 25px;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+.box {
+    height: 95px;
+    width: 95px;
+    border: 2px solid rgba(17, 28, 112, 0.731);
+    background-color: rgba(255, 255, 255, 0.724);
+    border-radius: 10px;
+    float: left;
+    margin: .82rem;
+}
+img {
+    padding-top: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 75px;
 }
 mat-card-title {
+    padding: 1rem 0rem 0rem 1rem;
     font-size: 1.5rem;
 }
 mat-card-content {
-    margin: .5rem 1.25rem;
+    padding: 1rem;
 }
