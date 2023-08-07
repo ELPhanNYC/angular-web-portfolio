@@ -1,3 +1,6 @@
 <footer>
-    <p>© 2023 Ethan Phan <a href="https://github.com/ELPhanNYC" title="GitHub" ><img src="../assets/images/icons8-github-50.png"></a><a href="https://www.linkedin.com/in/ethanlphan/" title = "Linkedin"><img src="../assets/images/icons8-linkedin-50.png"></a><a href="https://github.com/ELPhanNYC" title = "Resume"><img src="../assets/images/icons8-resume-30.png"></a></p>
+    <p>
+      © 2023 Ethan Phan 
+      <a  *ngFor = "let link of links" href={{link.href}} title = {{link.title}}><img src={{link.icon}}></a>
+    </p>
   </footer>
