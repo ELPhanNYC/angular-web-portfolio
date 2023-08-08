@@ -1,0 +1,58 @@
+div {
+    padding: 0rem 1rem 1rem 0rem;
+    margin-top: 2rem;
+    margin-bottom: 1.25rem;
+}
+
+h2{
+    float: left;
+    padding-left: 1rem;
+}
+
+.main {
+    margin-bottom: -1.25rem;
+}
+
+.education-container {
+    border: 2px solid rgba(17, 28, 112, 0.731);
+    background-color: rgba(10, 128, 182, 0.201);
+    border-radius: 25px;
+    height: 28rem;
+    width: 46%;
+    float: left;
+}
+.right-panel {
+    float: right;
+}
+.circle {
+    border: 3px soild rgba(17, 28, 112, 0.731);
+    background-color: white;
+    margin-top: -2rem;
+    display: block;
+    margin-left: -2rem;
+    border-radius: 50%;
+    height: 8rem;
+    width: 7.75rem;
+    float: right;
+    margin-right: -2rem;
+}
+.left-img{
+    display: block;
+    margin: 2.75rem auto auto auto;
+    width: 7rem;
+    padding-left: .75rem;
+}
+.right-img {
+    display: block;
+    margin: 3.25rem auto auto auto;
+    width: 7rem;
+    padding-left: .75rem;
+}
+p {
+    padding-left: 2rem;
+}
+
+h3 {
+    padding-left: 1rem;
+}
+

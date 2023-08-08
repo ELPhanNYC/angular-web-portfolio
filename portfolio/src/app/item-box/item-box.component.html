@@ -1,8 +1,23 @@
 <mat-card class = "card">
-    <mat-card-title><strong>Technologies and Tools 🛠️</strong></mat-card-title>
+    <mat-card-title><strong>Skills 🛠️</strong></mat-card-title>
     <mat-card-content>
-        <div class = "box" *ngFor="let icon of icons">
-                <img src = {{icon.src}}>
-        </div>
+        <mat-tab-group>
+            <mat-tab label = "Languages" class = "tabs">
+                <ng-template mat-tab-label>
+                    <span class = "tabs">Computer Languages</span>
+                </ng-template>
+                <div class = "box" *ngFor="let icon of languages">
+                    <img src = {{icon.src}} title = {{icon.title}}>
+                </div>
+            </mat-tab>
+            <mat-tab label = "Tools" class = "tabs">
+                <ng-template mat-tab-label>
+                    <span class = "tabs">Technologies</span>
+                </ng-template>
+                <div class = "box" *ngFor="let icon of tools">
+                    <img src = {{icon.src}} title = {{icon.title}}>
+                </div>
+            </mat-tab>
+        </mat-tab-group>
     </mat-card-content>
 </mat-card>
