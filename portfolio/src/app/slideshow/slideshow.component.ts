@@ -22,7 +22,7 @@ export class SlideshowComponent {
   slideshow() {
     setInterval(() => {
       this.showNextImage();
-    }, 3000); // Change the time interval (in milliseconds) to control the slide duration
+    }, 3000);
   }
 
   showNextImage() {

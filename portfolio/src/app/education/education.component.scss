@@ -21,6 +21,24 @@ h2{
     width: 46%;
     float: left;
 }
+
+.container-bg-ub {
+    margin-top: 0rem;
+    border-radius: 25px 0px;
+    background-image: url("../../assets/images/ub-background.png");
+    background-size: cover;
+    height: 5rem;
+}
+
+.container-bg-pmhs {
+    margin-top: 0rem;
+    border-radius: 25px 0px;
+    background-image: url("../../assets/images/pmhs-background.png");
+    background-position: 0px -2.5rem;
+    background-size: cover;
+    height: 5rem;
+}
+
 .right-panel {
     float: right;
 }

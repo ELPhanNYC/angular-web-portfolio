@@ -20,7 +20,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatIconModule }  from '@angular/material/icon';
 import { MatExpansionModule } from '@angular/material/expansion';
 import {MatTabsModule} from '@angular/material/tabs';
-
+import { CarouselComponent } from './carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +34,8 @@ import {MatTabsModule} from '@angular/material/tabs';
     ItemBoxComponent,
     SmoothScrollDirective,
     MenuComponent,
-    EducationComponent
+    EducationComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,

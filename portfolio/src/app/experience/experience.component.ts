@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, QueryList, ViewChild, ViewChildren} from '@angular/core';
 
 @Component({
   selector: 'app-experience',

@@ -1,0 +1,65 @@
+.roles {
+    border-radius: 25px;
+    margin-top: 1rem;
+    padding: 0.25rem 1rem;
+    animation: fade 5s infinite;
+}
+
+.mtb {
+    height: 300px;
+    background-image: url("../../assets/images/m&t-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ub-ta {
+    height: 300px;
+    background-image: url("../../assets/images/ub-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-fend {
+    height: 300px;
+    background-image: url("../../assets/images/bg-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .next {
+    right: 2.25rem;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  @keyframes fade {
+    0% {
+        opacity: .05;
+    }
+    25% {
+        opacity: 1;
+    }
+    75%{
+        opacity: 1;
+    }
+    100% {
+        opacity: .05;
+    }
+}
+ul {
+    backdrop-filter: blur(5px);
+}
+li {
+    padding: .25rem;
+}
