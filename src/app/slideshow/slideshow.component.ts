@@ -10,10 +10,10 @@ export class SlideshowComponent {
 
   }
 
-  imageSrc:string = '../../assets/images/headshot.jpeg';
+  imageSrc:string = 'assets/images/headshot.jpeg';
   increment:number = 1;
 
-  images = [{src:'../../assets/images/headshot.jpeg'}, {src:'../../assets/images/young_ethan.JPG'}];
+  images = [{src:'assets/images/headshot.jpeg'}, {src:'assets/images/young_ethan.JPG'}];
 
   ngOnInit(){
     this.slideshow();
