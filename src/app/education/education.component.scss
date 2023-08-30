@@ -13,11 +13,16 @@ h2{
     margin-bottom: -1.25rem;
 }
 
+.grid-container{
+    display: flex;
+    justify-content: space-between;
+}
+
 .education-container {
     border: 2px solid rgba(17, 28, 112, 0.731);
     background-color: rgba(10, 128, 182, 0.201);
     border-radius: 25px;
-    height: 28rem;
+    height: auto;
     width: 46%;
     float: left;
 }
