@@ -8,21 +8,34 @@
         <div class = "container-bg-ub">
             <h2>University at Buffalo,<br>The State University of New York</h2>
         </div>
-        <h3>Computer Science B.S. </h3>
-        <p><u>Expected Graduation Date</u>: December 2024
-            <br>
-            <br>
-            <u>GPA</u>: 4.000
-            <br>
-            <br>
-            <u>Honors</u>: Dean's List (4x), Pride of New York Scholarship
-            <br>
-            <br>
-            <u>Current Courses</u>: CSE312 (Web Applications), CSE365 (Computer Security), CSE368 (Intro to Artificial Intelligence), CSE495 (Undergraduate Teaching Assistant), EAS360 (Engineering Communications)
-            <br>
-            <br>
-            <u>Extracurricular Activities</u>: UB Hacking (Hackathon), Vietnamese Student Association, Asian American Student Union
-        </p>
+        <h3>
+            Computer Science B.S.
+        </h3>
+        <div [style.display]="displayInfo ? 'none' : 'block'" class = "toggle-switch">
+            <a (click)="toggleInfo()">&#8659;</a>
+        </div>
+        <div [style.display]="displayInfo ? 'block' : 'none'">
+            <ul>
+                <li>
+                    <u>Expected Graduation Date:</u> December 2024
+                </li>
+                <li>
+                    <u>GPA:</u> 4.000
+                </li>
+                <li>
+                    <u>Honors:</u> Dean's List (4x), Pride of New York Scholarship
+                </li>
+                <li><u>Relevant Courses:</u> 
+                    Intro to Artificial Intelligence, Software Engineering, Intro to Computer Security, Intro to Web Applications, Modern Networking Concepts, Data Structures and Algorithms, Advanced Algorithms
+                </li>
+                <li>
+                    <u>Extracurricular Activities:</u> UB Hacking (Hackathon), Society of Asian Scientist and Engineers, DivTech, Vietnamese Student Association, Asian American Student Union
+                </li>
+            </ul>
+            <div class = "toggle-switch">
+                <a (click)="toggleInfo()" [style.display]="displayInfo ? 'inline' : 'none'">&#8657;</a>
+            </div>
+        </div>
     </div>
     <div class = "education-container right-panel">
         <div class="circle">
@@ -31,18 +44,31 @@
         <div class = "container-bg-pmhs">
             <h2>Patchogue-Medford High School<br><br></h2>
         </div>
-        <h3>Advanced Regents Diploma </h3>
-        <p><u>Graduation Date</u>: June 2021
-            <br>
-            <br>
-            <u>Honors</u>: AP Scholar with Distinction
-            <br>
-            <br>
-            <u>Relevant Courses</u>: AP Computer Science Principles (5), AP Computer Science A (4), AP Calculus BC (5)
-            <br>
-            <br>
-            <u>Extracurricular Activities</u>: Math Team President, Model United Nations Chairman, National Honor Society Executive Member, English Honor Society, Robotics Team (Engineering Team), Key Club Member, Varsity Badminton, Junior Varsity Volleyball, Violinist (Concert, String Ensemble, and Chamber Orchestras)
-        </p>
+        <h3>
+            Advanced Regents Diploma
+        </h3>
+        <div [style.display]="displayInfo ? 'none' : 'block'" class = "toggle-switch">
+            <a (click)="toggleInfo()">&#8659;</a>
+        </div>
+        <div [style.display]="displayInfo ? 'block' : 'none'">
+            <ul>
+                <li>
+                    <u>Graduation Date:</u> June 2021
+                </li>
+                <li>
+                    <u>Honors:</u> AP Scholar with Distinction
+                </li>
+                <li>
+                    <u>Relevant Courses:</u> AP Computer Science Principles (5), AP Computer Science A (4), AP Calculus BC (5)
+                </li>
+                <li>
+                    <u>Extracurricular Activities:</u> Math Team President, Model United Nations Chairman, National Honor Society Executive Member, English Honor Society, Robotics Team (Engineering Team), Key Club Member, Varsity Badminton, Junior Varsity Volleyball, Violinist (Concert, String Ensemble, and Chamber Orchestras)
+                </li>
+            </ul>
+            <div class = "toggle-switch">
+                <a (click)="toggleInfo()">&#8657;</a>
+            </div>
+        </div>
     </div>
 </div>
 <br class ="right"> 

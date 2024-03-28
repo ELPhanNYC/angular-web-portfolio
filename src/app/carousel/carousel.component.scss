@@ -3,6 +3,7 @@
     margin-top: 1rem;
     padding: 0.25rem 1rem;
     animation: fade 5s infinite;
+    min-height: 22rem;
 }
 
 .mtb {
@@ -19,7 +20,7 @@
 }
 .bg-fend {
     height: auto;
-    background-image: url("../../assets/images/bg-background.png");
+    background-image: url("../../assets/images/bellows-background.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -27,7 +28,7 @@
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 60%;
     width: auto;
     color: white;
     font-weight: bold;
@@ -58,7 +59,7 @@
     }
 }
 ul {
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(2px);
 }
 li {
     padding: .25rem;

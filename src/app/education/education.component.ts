@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./education.component.scss']
 })
 export class EducationComponent {
-
+  displayInfo: boolean = false;
+  
+  toggleInfo(){
+    this.displayInfo = !this.displayInfo
+  }
 }
