@@ -19,7 +19,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatIconModule }  from '@angular/material/icon';
 import { MatExpansionModule } from '@angular/material/expansion';
-import {MatTabsModule} from '@angular/material/tabs';
+import { MatTabsModule} from '@angular/material/tabs';
 import { CarouselComponent } from './carousel/carousel.component';
 
 @NgModule({
@@ -46,6 +46,7 @@ import { CarouselComponent } from './carousel/carousel.component';
     MatIconModule,
     MatExpansionModule,
     MatTabsModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent],

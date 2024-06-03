@@ -7,6 +7,6 @@ const routes: Routes = [{path:'app-home', component: HomeComponent, title: 'Etha
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
 export class AppRoutingModule { }
