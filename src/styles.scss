@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Ubuntu-Regular';
+    src: url('assets/font/Ubuntu/Ubuntu-Regular.ttf');
+}
+
+body {
+    font-family: 'Ubuntu-Regular';
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 3rem;
+
+    /*
+    Pallete: 
+    Orange - E88D67, 
+    Cream - F3F7EC, 
+    Lighter Blue - 006989, 
+    Darker Blue - 005C78
+    */
+    background-color: #F3F7EC;
+}
+
+// Setup for enabling responsiveness
+@media (max-width: 768px) {
+    body {
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 2rem;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    body {
+        margin-left: 1rem;
+        margin-right:1rem;
+        margin-top: 1rem;
+    }
+}

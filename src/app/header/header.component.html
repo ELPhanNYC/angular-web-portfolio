@@ -1,0 +1,15 @@
+<div class = "navbar">
+    <div class = "left">
+        <img class="logo" src="assets/images/ethan-logo.png">
+    </div>
+    <div class = "right">
+        <ul>
+            <li *ngFor = "let link of navLinks" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                <a [routerLink]="link.routerLink">{{link.label}}</a>
+            </li>
+            <li routerLinkActive="active">
+                <a routerLink = "assets/Ethan Phan Resume.pdf">resume</a>
+            </li>
+        </ul>
+    </div> 
+</div>
