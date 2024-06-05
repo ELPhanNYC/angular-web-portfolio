@@ -64,3 +64,43 @@ ul {
 li {
     padding: .25rem;
 }
+
+@media (max-width: 768px) {
+    .roles {
+        padding: 0.5rem; 
+        min-height: 18rem; 
+    }
+
+    .prev, .next {
+        font-size: 2rem; 
+        top: 50%; 
+    }
+
+    .next {
+        right: 1rem; 
+    }
+
+    ul {
+        backdrop-filter: blur(1px); 
+    }
+}
+
+@media (max-width: 480px) {
+    .roles {
+        padding: 0.25rem; 
+        min-height: 15rem; 
+    }
+
+    .prev, .next {
+        font-size: 1.5rem; 
+        top: 50%; 
+    }
+
+    .next {
+        right: 0.5rem; 
+    }
+
+    ul {
+        backdrop-filter: blur(0.5px); 
+    }
+}

@@ -19,3 +19,40 @@
 .right{
     clear: right;
 }
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .intro {
+        float: none; 
+        width: 100%;
+        padding-left: 1rem;
+        padding-top: 2rem;
+    }
+
+    .about {
+        padding-top: 1rem;
+    }
+
+    .left, .right {
+        clear: none; 
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 0.5rem; 
+    }
+
+    .intro {
+        padding-left: 0.5rem; 
+        padding-top: 1rem; 
+    }
+
+    .about {
+        padding-top: 0.5rem;
+    }
+}

@@ -97,3 +97,44 @@ li {
     cursor: pointer;
 }
 
+@media (max-width: 768px) {
+    .grid-container {
+        flex-direction: column; /* Stack items vertically on small screens */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .education-container {
+        width: 90%; /* Increase width to take more space on small screens */
+    }
+
+    h2 {
+        float: none;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .circle {
+        margin: 0 auto;
+        float: none;
+    }
+
+    .left-img, .right-img {
+        margin: 1rem auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .education-container {
+        width: 100%; /* Take full width on very small screens */
+    }
+
+    .circle {
+        height: 6rem;
+        width: 6rem;
+    }
+
+    .left-img, .right-img {
+        width: 5rem;
+    }
+}
+

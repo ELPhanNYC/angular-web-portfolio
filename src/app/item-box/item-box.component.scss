@@ -35,3 +35,55 @@ mat-card-content {
 .tabs {
     color: white;
 }
+
+@media (max-width: 768px) {
+    .card {
+        padding: 0.75rem; /* Reduce padding for smaller screens */
+    }
+
+    .box {
+        height: 75px; /* Reduce height for smaller screens */
+        width: 75px; /* Reduce width for smaller screens */
+        margin: 0.5rem; /* Adjust margin for smaller screens */
+    }
+
+    img {
+        height: 55px; /* Reduce image height for smaller screens */
+        padding-top: 5px; /* Adjust padding top for smaller screens */
+    }
+
+    mat-card-title {
+        font-size: 1.25rem; /* Reduce font size for smaller screens */
+        padding: 0.75rem 0 0 0.75rem; /* Adjust padding for smaller screens */
+    }
+
+    mat-card-content {
+        padding: 0.75rem; /* Adjust padding for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        padding: 0.5rem; /* Further reduce padding for very small screens */
+    }
+
+    .box {
+        height: 55px; /* Further reduce height for very small screens */
+        width: 55px; /* Further reduce width for very small screens */
+        margin: 0.25rem; /* Further adjust margin for very small screens */
+    }
+
+    img {
+        height: 35px; /* Further reduce image height for very small screens */
+        padding-top: 3px; /* Further adjust padding top for very small screens */
+    }
+
+    mat-card-title {
+        font-size: 1rem; /* Further reduce font size for very small screens */
+        padding: 0.5rem 0 0 0.5rem; /* Further adjust padding for very small screens */
+    }
+
+    mat-card-content {
+        padding: 0.5rem; /* Further adjust padding for very small screens */
+    }
+}
