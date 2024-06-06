@@ -10,6 +10,17 @@ p {
     color: #005C78;
 }
 
+.collage-image {
+    max-width: 30rem;
+}
+
+.image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 // Setup for enabling responsiveness
 @media (max-width: 480px) {
@@ -18,5 +29,8 @@ p {
     }
     p {
         font-size: 0.8rem;
+    }
+    .collage-image {
+        max-width: 15rem;
     }
 }
