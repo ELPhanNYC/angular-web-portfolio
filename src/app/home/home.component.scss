@@ -1,5 +1,5 @@
 .name {
-    color: #E88D67;
+    color: #0A6847;
 }
 
 p {
@@ -8,4 +8,15 @@ p {
 
 .blue {
     color: #005C78;
+}
+
+
+// Setup for enabling responsiveness
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.25rem;
+    }
+    p {
+        font-size: 0.8rem;
+    }
 }

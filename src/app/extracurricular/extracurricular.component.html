@@ -1,1 +1,6 @@
 <h4>EXTRACURRICULAR</h4>
+<div class = "ec" *ngFor = "let ec of extracurricular">
+    <p><a href = "{{ec.links}}">{{ec.title}}</a></p>
+    <p class = "details-1">{{ec.detail1}}</p>
+    <p class = "details-2">{{ec.detail2}}</p>
+</div>

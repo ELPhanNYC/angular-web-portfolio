@@ -43,10 +43,22 @@ a {
 
 a:hover {
     text-decoration: underline;
-    text-decoration-color:#E88D67;
+    text-decoration-color:#0A6847;
 }
 
 .active a {
-    color: #E88D67;
+    color: #0A6847;
 }
 
+// Setup for enabling responsiveness
+
+@media (max-width: 480px) { 
+    li {
+        font-size: 0.8rem;
+    }
+
+    .logo {
+        height: 3rem;
+        border-radius: 50%;
+    }
+}

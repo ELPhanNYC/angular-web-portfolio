@@ -18,6 +18,7 @@ import { ExperienceComponent } from './experience/experience.component';
 import { WorkComponent } from './work/work.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ExtracurricularComponent } from './extracurricular/extracurricular.component';
+import { EducationComponent } from './education/education.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { ExtracurricularComponent } from './extracurricular/extracurricular.comp
     WorkComponent,
     ProjectsComponent,
     ExtracurricularComponent,
+    EducationComponent,
   ],
   imports: [
     BrowserModule,

@@ -24,3 +24,14 @@ footer img {
     height: 1.5rem;
 }
 
+// Setup for enabling responsiveness
+@media (max-width: 480px) {
+    footer {
+        font-size: 0.8rem;
+        height: 2rem;
+    }
+
+    footer img {
+        height: 1rem;
+    }
+}
