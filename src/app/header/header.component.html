@@ -7,8 +7,11 @@
             <li *ngFor = "let link of navLinks" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
                 <a [routerLink]="link.routerLink">{{link.label}}</a>
             </li>
+            <li routerLinkActive="active" title = "elphan3017@gmail.com">
+                <a href="mailto:elphan3017@gmail.com">contact me</a>
+            </li>
             <li routerLinkActive="active">
-                <a href = "assets/Ethan Phan Resume.pdf">resume</a>
+                <a href = "assets/Phan_Ethan_Resume.pdf">resume</a>
             </li>
         </ul>
     </div> 
