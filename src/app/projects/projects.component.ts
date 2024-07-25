@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class ProjectsComponent {
   projects = [
+    {title:"hammyhuddle", detail1:"july 2024 - present | angular, typescript, scss, express.js, mongodb", detail2:"crafted a hamster focused social media platform leveraging material ui and angular to build a responsive front-end paired with an express.js and mongodb back-end to handle authentication and api endpoints."},
     {title:"pomopengy", detail1:"january 2024 - present | angular, typescript, scss, express.js, mongodb", detail2:"developed a productivity app with angular for the front-end and express.js for the back-end, incorporating achievements to incentivize task completion."},
     {title:"schedule sync", detail1:"january 2024 - april 2024 | react, tailwind css, php, mysql", detail2:"constructed a business scheduling and organization web app with react on an apache server, using a php back-end with a mysql database, in a team of 5 using scrum and tested for performance with over 100 concurrent users."},
     {title:"tcp chat application", detail1:"february 2024 - march 2024 | c#", detail2:"engineered a sophisticated chat application based on the server-client model using tcp sockets. allowed for additional commands by leveraging the use of non-blocking i/o."},
